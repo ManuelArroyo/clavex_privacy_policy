@@ -6,7 +6,7 @@
 
 ## Overview
 
-PassVault is a password manager application developed by [Your Name]. This policy explains what data we collect, how we use it, and how we protect it.
+PassVault is a password manager application developed by Manuel Arroyo. This policy explains what data we collect, how we use it, and how we protect it.
 
 We are committed to protecting your privacy. **Your passwords never leave your device.**
 
@@ -114,8 +114,8 @@ We may update this policy from time to time. We will notify you of any changes b
 
 If you have any questions about this Privacy Policy, please contact us:
 
-📧 **Email:** [your@email.com]  
-🌐 **GitHub:** [https://github.com/yourusername](https://github.com/yourusername)
+📧 **Email:** clavex.help@gmail.com  
+🌐 **GitHub:** [https://github.com/ManuelArroyo](https://github.com/ManuelArroyo)
 
 ---
 
