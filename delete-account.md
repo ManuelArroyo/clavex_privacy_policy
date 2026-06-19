@@ -1,35 +1,43 @@
-# Eliminar cuenta y datos — PassVault
+# Delete Account & Data — Clavex
 
-## ¿Cómo eliminar tu cuenta y datos?
+## How to delete your account and data?
 
-### Opción 1 — Desde la propia app (recomendado)
-1. Abre PassVault
-2. Pulsa el menú en la esquina superior derecha
-3. Selecciona **Cerrar sesión**
-4. Desinstala la aplicación de tu dispositivo
+### Option 1 — From the app (recommended)
+1. Open Clavex
+2. Tap the ⋮ menu in the top right corner
+3. Select **Sign out**
+4. Uninstall the application from your device
 
-Al desinstalar la app todos tus datos se eliminan permanentemente del dispositivo ya que PassVault no almacena ningún dato en servidores externos.
+When you uninstall the app, all your data is permanently deleted from
+your device since Clavex does not store any data on external servers.
 
-### Opción 2 — Solicitar eliminación por email
-Si iniciaste sesión con Google y quieres que eliminemos tu identificador
-de usuario de nuestros registros de Firebase, envíanos un email a:
+### Option 2 — Request deletion by email
+If you signed in with Google and want us to delete your user identifier
+from our Firebase records, send us an email to:
 
 📧 **[clavex.help@gmail.com]**
 
-Con el asunto: **"Solicitud de eliminación de cuenta"**
+With the subject: **"Account deletion request"**
 
-Procesaremos tu solicitud en un plazo máximo de 30 días.
+We will process your request within a maximum of 30 days.
 
 ---
 
-### ¿Qué datos se eliminan?
-| Dato | Dónde | Al desinstalar | Por email |
+### What data is deleted?
+| Data | Where | On uninstall | By email |
 |---|---|---|---|
-| Contraseñas guardadas | Tu dispositivo | ✅ Eliminadas | N/A |
-| ID de usuario (UID) | Firebase | ✅ Eliminado | ✅ Eliminado |
-| Email | Firebase | ✅ Eliminado | ✅ Eliminado |
+| Saved passwords | Your device | ✅ Deleted | N/A |
+| User ID (UID) | Firebase | ✅ Deleted | ✅ Deleted |
+| Email | Firebase | ✅ Deleted | ✅ Deleted |
 
 ---
 
-> PassVault no almacena contraseñas ni datos sensibles en servidores externos.
-> Todos los datos se guardan únicamente en tu dispositivo cifrados con AES-256.
+> Clavex does not store passwords or sensitive data on external servers.
+> All data is stored only on your device, encrypted with AES-256.
+
+---
+
+## Contact
+
+📧 **Email:** [clavex.help@gmail.com]
+🌐 **Privacy Policy:** [https://github.com/ManuelArroyo/clavex_privacy_policy/blob/main/privacy-policy.md](https://github.com/ManuelArroyo/clavex_privacy_policy/blob/main/privacy-policy.md)
