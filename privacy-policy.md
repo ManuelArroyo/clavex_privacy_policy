@@ -1,4 +1,4 @@
-# Privacy Policy — PassVault
+# Privacy Policy — Clavex
 
 > Last updated: June 2026
 
@@ -6,7 +6,7 @@
 
 ## Overview
 
-PassVault is a password manager application developed by Manuel Arroyo. This policy explains what data we collect, how we use it, and how we protect it.
+Clavex is a password manager application developed by Manuel Arroyo. This policy explains what data we collect, how we use it, and how we protect it.
 
 We are committed to protecting your privacy. **Your passwords never leave your device.**
 
@@ -42,7 +42,7 @@ The data collected depends on the login method you choose:
 
 ## How we protect your data
 
-PassVault uses multiple layers of encryption to protect your passwords:
+Clavex uses multiple layers of encryption to protect your passwords:
 Your password (plain text)
 
 ↓
@@ -64,7 +64,7 @@ SQLCipher (entire database encrypted with AES-256)
 
 ## Third-party services
 
-PassVault uses the following third-party services that may collect data according to their own privacy policies:
+Clavex uses the following third-party services that may collect data according to their own privacy policies:
 
 ### Google Firebase Authentication
 Used for Google Sign-In functionality.
@@ -90,7 +90,7 @@ Used to display advertisements in the app. AdMob may collect device data to show
 
 ## Children's privacy
 
-PassVault is not directed at children under 13 years of age. We do not knowingly collect personal data from children under 13.
+Clavex is not directed at children under 13 years of age. We do not knowingly collect personal data from children under 13.
 
 ---
 
@@ -121,7 +121,7 @@ If you have any questions about this Privacy Policy, please contact us:
 
 <div align="center">
 
-**PassVault** — Your passwords, secured.
+**Clavex** — Your passwords, secured.
 
 *This app stores all sensitive data locally on your device using AES-256 encryption.*
 
