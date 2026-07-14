@@ -1,128 +1,129 @@
 # Privacy Policy — Clavex
 
-> Last updated: June 2026
+> Last updated: July 2026
 
 ---
 
 ## Overview
 
-Clavex is a password manager application developed by Manuel Arroyo. This policy explains what data we collect, how we use it, and how we protect it.
+Clavex is a local password manager developed by Manuel Arroyo.
+This policy explains what data we collect, how we use it, and how we 
+protect it.
 
-We are committed to protecting your privacy. **Your passwords never leave your device.**
+**Your passwords never leave your device. We collect no personal data.**
 
 ---
 
 ## What data we collect
 
-The data collected depends on the login method you choose:
+Clavex does not collect any personal information.
 
-### Google Sign-In
-| Data | Purpose |
-|------|---------|
-| User ID (UID) | Identify your local encrypted database |
-| Email address | Display your account information |
+- ❌ No name
+- ❌ No email address
+- ❌ No phone number
+- ❌ No account credentials
+- ❌ No passwords or sensitive data
 
-> We do not store your Google password or access any other Google account data.
+### Anonymous diagnostic data
+We use Firebase Crashlytics to collect anonymous crash reports to 
+improve app stability. This data contains only technical information 
+about the device and app state at the time of a crash — never any 
+passwords or personal information.
 
-### Token login
-- ✅ No personal data collected
-- ✅ Token stored only on your device
-- ✅ No internet connection required
-
----
-
-## What data we do NOT collect
-
-- ❌ Your saved passwords are stored **only on your device**
-- ❌ We do not send your passwords to any external server
-- ❌ We do not sell your data to third parties
-- ❌ We do not use your data for targeted advertising
+### Advertising identifier
+Clavex displays ads via Google AdMob. AdMob may collect your 
+device's advertising identifier to show relevant ads. You can reset 
+or disable this identifier in your device settings.
 
 ---
 
-## How we protect your data
+## How your data is stored
 
-Clavex uses multiple layers of encryption to protect your passwords:
+All your passwords are stored **exclusively on your device**, 
+encrypted with AES-256. Clavex uses a double encryption layer:
 Your password (plain text)
-
 ↓
-
-AES-256-CBC encryption (key derived from your User ID)
-
+AES-256-CBC encryption
 ↓
-
-Encrypted password stored in database
-
-↓
-
 SQLCipher (entire database encrypted with AES-256)
-
 ↓
+.db file stored locally on your device
 
-.db file on device storage
+No data is ever transmitted to our servers or any third party, 
+except for the anonymous diagnostic and advertising data described above.
+
+---
+
+## Your PIN
+
+Your 6-digit PIN is stored locally on your device using 
+Android's EncryptedSharedPreferences (AES-256-GCM). 
+It is never transmitted, stored remotely, or recoverable 
+by the developer.
+
+**If you lose your PIN, there is no recovery option.** 
+We strongly recommend exporting a backup of your passwords 
+and storing your PIN in a safe place.
+
 ---
 
 ## Third-party services
 
-Clavex uses the following third-party services that may collect data according to their own privacy policies:
-
-### Google Firebase Authentication
-Used for Google Sign-In functionality.
-- [Google Privacy Policy](https://policies.google.com/privacy)
-- [Firebase Privacy Policy](https://firebase.google.com/support/privacy)
-
-### Google AdMob
-Used to display advertisements in the app. AdMob may collect device data to show relevant ads.
-- [Google Privacy Policy](https://policies.google.com/privacy)
-- [AdMob Privacy Policy](https://support.google.com/admob/answer/6128543)
+| Service | Purpose | Privacy Policy |
+|---------|---------|----------------|
+| Firebase Crashlytics | Anonymous crash reports | [Firebase Privacy](https://firebase.google.com/support/privacy) |
+| Google AdMob | In-app advertising | [Google Privacy](https://policies.google.com/privacy) |
 
 ---
 
 ## Data retention
 
-| Data | Storage | Retention |
-|------|---------|-----------|
-| Passwords | Local device only | Until you delete them |
-| Google UID | Local device only | Until you log out |
-| Token | Local device only | Until you reset it |
-
----
-
-## Children's privacy
-
-Clavex is not directed at children under 13 years of age. We do not knowingly collect personal data from children under 13.
+| Data | Where stored | Retention |
+|------|-------------|-----------|
+| Passwords | Your device only | Until you delete them |
+| PIN | Your device only | Until you reset it |
+| Crash reports | Firebase (anonymous) | 90 days |
+| Advertising ID | Device / AdMob | Per AdMob policy |
 
 ---
 
 ## Your rights
 
-You have the right to:
-- **Access** your data — all your data is on your device
-- **Delete** your data — uninstall the app or use the logout option
-- **Export** your data — use the built-in export feature
-- **Import** your data — use the built-in import feature
+- **Access**: all your data is on your device
+- **Delete**: uninstall the app — all local data is permanently deleted
+- **Export**: use the built-in export feature to back up your passwords
+- **Opt out of ads**: disable the advertising identifier in your device settings
+- **Opt out of crash reports**: we do not currently offer an in-app opt-out, 
+  but you can contact us to request exclusion
+
+---
+
+## Children's privacy
+
+Clavex is not directed at children under 13 years of age. 
+We do not knowingly collect data from children under 13.
 
 ---
 
 ## Changes to this policy
 
-We may update this policy from time to time. We will notify you of any changes by publishing the new policy on this page and updating the "Last updated" date above.
+We may update this policy from time to time. We will notify you 
+by publishing the new policy on this page and updating the 
+"Last updated" date above.
 
 ---
 
 ## Contact
 
-If you have any questions about this Privacy Policy, please contact us:
-
-📧 **Email:** clavex.help@gmail.com  
+📧 **Email:** [clavex.help@gmail.com]
 🌐 **GitHub:** [https://github.com/ManuelArroyo](https://github.com/ManuelArroyo)
 
 ---
 
 <div align="center">
 
-**Clavex** — Your passwords, secured.
+**Clavex** — Your passwords, secured locally.
 
-*This app stores all sensitive data locally on your device using AES-256 encryption.*
+*No accounts. No cloud. No tracking.*
 
 </div>
